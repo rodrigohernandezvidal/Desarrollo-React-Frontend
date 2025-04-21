@@ -1,0 +1,56 @@
+/* Ajustamos la cabecera del calendario para que el mes y el año se muestren en una fila */
+.react-calendar__navigation {
+    display: flex;  /* Usamos flexbox para asegurarnos de que los elementos estén en una fila */
+    justify-content: center;  /* Alineamos los elementos al centro */
+    align-items: center;  /* Alineación vertical centrada */
+    background-color: #4caf50;  /* Fondo verde */
+    color: white;
+    padding: 30px;
+    border-radius: 0px;
+  }
+  
+  /* Ajustamos los botones de navegación para que no se desborden */
+  .react-calendar__navigation button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;  /* Tamaño de fuente adecuado */
+    cursor: pointer;
+    padding: 10 10px;  /* Agregamos algo de padding para mejor visualización */
+  }
+  
+  /* Estilo para el mes y año */
+  .react-calendar__navigation__label {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;  /* Centramos el texto */
+    display: inline-block;  /* Aseguramos que los elementos estén en línea */
+    margin: 0 10px;  /* Espaciado entre mes y año */
+    flex-grow: 1;  /* Ocupa el espacio disponible */
+  }
+  
+  /* Estilo general del calendario */
+  .react-calendar__tile {
+    background-color: #f7f7f7;
+    color: #333;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para los domingos */
+  .sunday {
+    color: red !important;
+  }
+  
+  /* Estilo para el día activo */
+  .react-calendar__tile--active {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  /* Estilo para los días de la semana */
+  .react-calendar__month-view__weekdays {
+    background-color: #eeeeee;
+    color: #333;
+  }
+  

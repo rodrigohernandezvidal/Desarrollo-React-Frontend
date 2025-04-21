@@ -1,0 +1,20 @@
+/* Workspace */
+.dashboard {
+    margin-left: 250px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    height: 100vh;
+  }
+  
+  .dashboard h1 {
+    color: #333;
+  }
+  
+  .dashboard p {
+    font-size: 18px;
+    color: #555;
+  }
+  .main-content {
+    overflow-y: auto; /* Activa el scroll vertical */
+    padding-bottom: 50px; /* Asegura que el contenido no se quede debajo del footer */
+  }

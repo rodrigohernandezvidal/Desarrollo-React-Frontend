@@ -1,0 +1,25 @@
+.custom-table {
+    border: 1px solid black; /* Marcos negros */
+    border-collapse: collapse; /* Sin espacios entre bordes */
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    border: 1px solid black; /* Bordes internos */
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td, th {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .icon-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  

@@ -1,0 +1,18 @@
+.footer {
+    position: fixed; /* Hace que el footer esté fijo al final */
+    bottom: 0;
+    left: 0;
+    height: 35px;
+    width: 100%;
+    background-color: #E8BA1E; /* Color de fondo */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    margin-bottom: 40px; /* Agrega un margen en la parte inferior para no tapar contenido */
+  }
+  
